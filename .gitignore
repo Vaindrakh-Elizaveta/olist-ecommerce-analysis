@@ -1,0 +1,26 @@
+# Исходные и обработанные данные
+data/raw/*
+data/processed/*
+
+# Сохраняем сами папки
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Виртуальные окружения
+.venv/
+venv/
+
+# Редакторы
+.vscode/
+.idea/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
